@@ -5,13 +5,13 @@ import './button.css';
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
+export const Button = ({ primary, backgroundColor, size, label, borderRadius, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={backgroundColor && { backgroundColor }}
+      style={{ backgroundColor, borderRadius}}
       {...props}
     >
       {label}
@@ -37,6 +37,10 @@ Button.propTypes = {
    */
   label: PropTypes.string.isRequired,
   /**
+   * What border radius to apply
+   */
+  borderRadius: PropTypes.number,
+  /**
    * Optional click handler
    */
   onClick: PropTypes.func,
@@ -47,4 +51,5 @@ Button.defaultProps = {
   primary: false,
   size: 'medium',
   onClick: undefined,
+  borderRadius: null,
 };
