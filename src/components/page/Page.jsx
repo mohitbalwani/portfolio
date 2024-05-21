@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header } from '../m-header/Header';
+import { Header } from '../header/Header';
 import './page.css';
 
 export const Page = () => {
