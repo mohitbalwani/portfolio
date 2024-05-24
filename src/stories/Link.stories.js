@@ -11,7 +11,7 @@ export default {
 
 export const Default = {
   args: {
-    label: 'Button',
+    label: 'Link',
     target: 'www.mohitbalwani.com'
   },
 };
