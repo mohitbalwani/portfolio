@@ -1,9 +1,9 @@
-import { Header } from '../components/header/Header';
+import {StorybookHeader } from '../components/storybook-header/Storybook-Header';
 import { fn } from '@storybook/test';
 
 export default {
-  title: 'Example/Header',
-  component: Header,
+  title: 'Example/Storybook-Header',
+  component: StorybookHeader,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
   parameters: {

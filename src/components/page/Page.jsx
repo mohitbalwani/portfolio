@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header } from '../header/Header';
+import { StorybookHeader } from '../storybook-header/Storybook-Header';
 import './page.css';
 
 export const Page = () => {
@@ -8,7 +8,7 @@ export const Page = () => {
 
   return (
     <article>
-      <Header
+      <StorybookHeader
         user={user}
         onLogin={() => setUser({ name: 'Jane Doe' })}
         onLogout={() => setUser(undefined)}
