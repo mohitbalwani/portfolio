@@ -1,5 +1,9 @@
 import React from 'react';
 import './projects.css';
+import portfolioPhoto from '../../assets/portfolio.png';
+import imdb from '../../assets/imdb.png';
+import healthyHarvest from '../../assets/healthyHarvest.png';
+import blog from '../../assets/blog.png';
 
 const Projects = () => {
   return (
@@ -8,7 +12,7 @@ const Projects = () => {
 
       <div className="box-container">
         <div className="box tilt">
-          <img draggable="false" src="./assets/images/projects/mlpr.jpg" alt="My portfolio" />
+          <img draggable="false" src={portfolioPhoto} alt="My portfolio" />
           <div className="content">
             <div className="tag">
               <h3>My portfolio</h3>
@@ -19,7 +23,7 @@ const Projects = () => {
                 <a href="<deployed link>" className="btn" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-eye"></i> View
                 </a>
-                <a href="<github repo link>" className="btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mohitbalwani/mohitbalwani.com" className="btn" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-code"></i> Code
                 </a>
               </div>
@@ -28,7 +32,7 @@ const Projects = () => {
         </div>
 
         <div className="box tilt">
-          <img draggable="false" src="./assets/images/projects/portfolio1.jpg" alt="Movies" />
+          <img draggable="false" src={imdb} alt="Movies" />
           <div className="content">
             <div className="tag">
               <h3>Reel Rover</h3>
@@ -39,7 +43,7 @@ const Projects = () => {
                 <a href="https://infallible-wozniak-067817.netlify.app/" className="btn" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-eye"></i> View
                 </a>
-                <a href="<github repo link>" className="btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mohitbalwani/IMDB-Clone-React" className="btn" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-code"></i> Code
                 </a>
               </div>
@@ -48,7 +52,7 @@ const Projects = () => {
         </div>
 
         <div className="box tilt">
-          <img draggable="false" src="./assets/images/projects/Library.png" alt="healthy harvest website" />
+          <img draggable="false" src={healthyHarvest} alt="healthy harvest website" />
           <div className="content">
             <div className="tag">
               <h3>Healthy Harvest</h3>
@@ -59,7 +63,7 @@ const Projects = () => {
                 <a href="https://clever-panini-7c3447.netlify.app/" className="btn" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-eye"></i> View
                 </a>
-                <a href="<github repo link>" className="btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mohitbalwani/Healthy-Harvest" className="btn" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-code"></i> Code
                 </a>
               </div>
@@ -68,18 +72,18 @@ const Projects = () => {
         </div>
 
         <div className="box tilt">
-          <img draggable="false" src="./assets/images/projects/CodeIN.jpg" alt="Blogs app" />
+          <img draggable="false" src={blog} alt="Blogs app" />
           <div className="content">
             <div className="tag">
               <h3>Blogs App</h3>
             </div>
             <div className="desc">
-              <p>Simple blog application which shows all the blogs.</p>
+              <p>Simple blog application made using MERN stack.</p>
               <div className="btns">
-                <a href="<NA code>" className="btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mohitbalwani/Blog-App" className="btn" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-eye"></i> View
                 </a>
-                <a href="<github link>" className="btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mohitbalwani/Blog-App" className="btn" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-code"></i> Code
                 </a>
               </div>
@@ -87,7 +91,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="box tilt">
+        {/* <div className="box tilt">
           <img draggable="false" src="./assets/images/projects/Netflix.PNG" alt="Netflix Clone | React-App" />
           <div className="content">
             <div className="tag">
@@ -105,12 +109,12 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
 
       <div className="viewall">
-        <a href="<my github repos link>" className="btn"><span>View All</span>
+        <a href="https://github.com/mohitbalwani?tab=repositories" className="btn"><span>View All</span>
           <i className="fas fa-arrow-right"></i>
         </a>
       </div>

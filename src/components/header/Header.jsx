@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const Header = () => {
   return (
     <header>
-      <a href="<linktree.link>" className="logo"><i className="fab fa-node-js"></i> Mohit</a>
+      <a href="#" className="logo"><i className="fab fa-node-js"></i> Mohit</a>
       <div id="menu" className="fas fa-bars"></div>
       <nav className="navbar">
         <ul>

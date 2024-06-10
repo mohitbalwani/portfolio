@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.css';
+import contactPhoto from '../../assets/contact.png';
 
 const Contact = () => {
   const handleSubmit = (e) => {
@@ -13,7 +14,7 @@ const Contact = () => {
       <div className="container">
         <div className="content">
           <div className="image-box">
-            <img draggable="false" src="./assests/images/contact1.png" alt="" />
+            <img draggable="false" src={contactPhoto} alt="" />
           </div>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
