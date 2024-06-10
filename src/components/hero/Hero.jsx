@@ -1,15 +1,35 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import './hero.css';
-import ParticleComponent from '../particle/ParticleComponent'
+import ParticleComponent from '../particle/ParticleComponent';
+import Typed from 'typed.js';
+import mohitPhoto from '../../assets/mohit-photo.jpeg'
 
 const Hero = () => {
+  const typingTextRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      strings: ['Web Development', 'Open Source', 'Tech Communities'],
+      loop: true,
+      typeSpeed: 50,
+      backSpeed: 25,
+      backDelay: 500,
+    };
+
+    const typed = new Typed(typingTextRef.current, options);
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <section className="home" id="home">
       <div id="particles-js"></div>
       <ParticleComponent />
       <div className="content">
         <h3>Hi There,<br /> I'm Mohit <span>Balwani</span></h3>
-        <p>i am into <span className="typing-text"></span></p>
+        <p>i am into <span ref={typingTextRef}></span></p>
         <a href="<lintree.links>" className="btn">
           <span>Visit all Links</span>
           <i className="fas fa-arrow-circle-up"></i>
@@ -26,7 +46,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="image">
-        <img draggable="false" className="tilt" src="./assests/images/potrait.jpeg" alt="" />
+        <img draggable="false" className="tilt" src={mohitPhoto} alt="" />
       </div>
     </section>
   );
