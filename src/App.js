@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
-import Skills from './components/skills/Skills';
+import Skills from './components/skills/Skills.jsx';
 import Education from './components/education/Education';
 import Projects from './components/projects/Projects';
 import Experience from './components/experience/Experience';
