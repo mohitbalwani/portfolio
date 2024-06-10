@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41c925b8.css",
+    "main.js": "/static/js/main.bb144b3f.js",
+    "static/media/imdb.png": "/static/media/imdb.8a0f0e26aa773e36f4b4.png",
+    "static/media/scoe.jpeg": "/static/media/scoe.0eea712704a465905c0d.jpeg",
+    "static/media/blog.png": "/static/media/blog.b0f7589420119cda8872.png",
+    "static/media/portfolio.png": "/static/media/portfolio.eeeb23d93baf90284f69.png",
+    "static/media/healthyHarvest.png": "/static/media/healthyHarvest.12512334aec20d86a3ef.png",
+    "static/media/mohitsPhoto.jpg": "/static/media/mohitsPhoto.9c19d873beb35f391477.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/vmv.png": "/static/media/vmv.2a7e3029af2a2d73024f.png",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/contact.png": "/static/media/contact.fae87f0b7ed654821997.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/mohit-photo.jpeg": "/static/media/mohit-photo.5c7ecefe6bf3dd876e50.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/index.html",
+    "main.41c925b8.css.map": "/static/css/main.41c925b8.css.map",
+    "main.bb144b3f.js.map": "/static/js/main.bb144b3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41c925b8.css",
+    "static/js/main.bb144b3f.js"
+  ]
+}
