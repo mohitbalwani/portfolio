@@ -36,7 +36,7 @@ const About = () => {
           </div>
 
           <div className="resumebtn">
-            <a href="https://drive.google.com/file/d/1Ap6O2HYUxE_vjT8FMVTy9lRVDtrlEwB4/view?usp=sharing" className="btn"><span>Resume</span>
+            <a href="https://drive.google.com/file/d/1cx-VU9xvHJCZbYTnO-Rs1UvFDxB-TSRP/view" className="btn"><span>Resume</span>
               <i className="fas fa-chevron-right"></i>
             </a>
           </div>
