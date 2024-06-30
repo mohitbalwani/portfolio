@@ -7,7 +7,7 @@ const Education = () => {
   return (
     <section className="education" id="education">
       <h1 className="heading"><i className="fas fa-graduation-cap"></i> My <span>Education</span></h1>
-      <p className="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+      <p className="quote">Education is not the learning of facts, but the training of the mind to think.</p>
 
       <div className="box-container">
 
